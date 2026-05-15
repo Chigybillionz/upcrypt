@@ -6,9 +6,9 @@ const ProjectHeader = () => {
     <div className="flex flex-col md:flex-row md:items-start justify-between gap-4">
       <div>
         <h2 className="text-2xl font-bold text-gray-900 mb-1">Project Workspace</h2>
-        <div className="flex items-center gap-4">
+        <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4">
           <h1 className="text-3xl font-bold text-[#3b3df2]">DeFi Protocol Rebrand</h1>
-          <span className="px-3 py-1 bg-[#e0e2ff] text-[#3b3df2] text-xs font-semibold rounded-full mt-1">
+          <span className="px-3 py-1 bg-[#e0e2ff] text-[#3b3df2] text-xs font-semibold rounded-full mt-1 w-max">
             <span className="w-1.5 h-1.5 inline-block bg-[#3b3df2] rounded-full mr-1.5 mb-0.5"></span>
             In Progress - 2/4 Milestones
           </span>

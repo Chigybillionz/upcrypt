@@ -45,14 +45,14 @@ const ActiveMilestones = () => {
                 High-fidelity responsive UI built with Tailwind CSS and Framer Motion.
               </p>
               
-              <div className="flex items-center gap-3">
+              <div className="flex flex-wrap items-center gap-3">
                 <button className="px-5 py-2 bg-[#3b3df2] hover:bg-[#2b2dd2] text-white font-semibold rounded-lg text-sm shadow-sm transition-colors">
                   Approve & Release
                 </button>
                 <button className="px-5 py-2 bg-white border border-gray-200 text-gray-700 font-semibold rounded-lg hover:bg-gray-50 transition-colors shadow-sm text-sm">
                   Request Revision
                 </button>
-                <button className="p-2 text-gray-400 hover:text-gray-600 transition-colors ml-2">
+                <button className="p-2 text-gray-400 hover:text-gray-600 transition-colors">
                   <Paperclip className="w-5 h-5" />
                 </button>
               </div>
